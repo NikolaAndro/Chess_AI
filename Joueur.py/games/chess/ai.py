@@ -133,8 +133,8 @@ class AI(BaseAI):
         print()
         print()
         print() 
-        print("Chosen move: ",my_move)
         logic.print_gameBoard(my_gameBoard)
+        print("Given the board above, my chosen move is: ",my_move)
         return my_move
         # <<-- /Creer-Merge: makeMove -->>
 
